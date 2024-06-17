@@ -2,7 +2,6 @@
 #define CALCULADORA_H
 
 #include <math.h>
-#include <stdio.h>
 
 #define MAX_EXPR_LEN 100
 #define MAX_PILHA_TAM 100
