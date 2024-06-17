@@ -4,13 +4,13 @@
 #define MAX_PILHA_TAM 100
 
 typedef struct {
-    double num[MAX_PILHA_TAM];
-    int topo;
+  double num[MAX_PILHA_TAM];
+  int topo;
 } ArmazenarNumeros;
 
 typedef struct {
-    char* strings[MAX_PILHA_TAM];
-    int topo;
+  char* strings[MAX_PILHA_TAM];
+  int topo;
 } ArmazenarStrings;
 
 // Declarações das funções
