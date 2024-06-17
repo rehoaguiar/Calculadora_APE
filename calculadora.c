@@ -124,7 +124,7 @@ void posfixaParaPreFixa(char *expr, char *resultado) {
 }
 
 
-/* void posfixaParaInfixa(char *expr, char *resultado) {
+void posfixaParaInfixa(char *expr, char *resultado) {
     ArmazenarStrings pilha = {.topo = -1};
     char *token = strtok(expr, " ");
 
@@ -159,7 +159,7 @@ temp[MAX_EXPR_LEN];
     }
 
     strcpy(resultado, removerString(&pilha));
-} */
+}
 
 float getValor(char *Str) {
   char expr[MAX_EXPR_LEN];
